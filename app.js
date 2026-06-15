@@ -1,5 +1,5 @@
 // Paste your Google Apps Script Web App URL here
-const API_URL = "PASTE_APPS_SCRIPT_URL_HERE";
+const API_URL = "https://script.google.com/macros/s/AKfycby0lCjEwHt-EsDA6oO_YtYaSV5kqUDMeAbDHwKnRBXJFzP3dI-zWB6qJWA5sEfFoYVq8Q/exec";
 
 let players = [];
 
