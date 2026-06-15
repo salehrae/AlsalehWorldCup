@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alsaleh World Cup Leaderboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="kicker">OFFICIAL LEADERBOARD</div>
+    <h1>ALSALEH</h1>
+    <h2>WORLD CUP TOURNAMENT</h2>
+    <p>Live ranking based on the Results sheet</p>
+  </header>
+
+  <main class="container">
+    <section class="stats">
+      <div class="stat-card"><span>Participants</span><strong id="totalPlayers">0</strong></div>
+      <div class="stat-card"><span>Top Score</span><strong id="topScore">0</strong></div>
+      <div class="stat-card"><span>Current Leader</span><strong id="leaderName">-</strong></div>
+    </section>
+
+    <section class="panel">
+      <div class="toolbar">
+        <input id="searchInput" type="search" placeholder="Search participant..." />
+        <button id="refreshBtn">Refresh</button>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Participant Name</th>
+            <th>Total Points</th>
+          </tr>
+        </thead>
+        <tbody id="leaderboardBody"></tbody>
+      </table>
+    </section>
+
+    <div class="footer" id="updatedAt">Last updated: -</div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
